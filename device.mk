@@ -21,6 +21,8 @@ endif
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 30
 
+TARGET_BOARD_PLATFORM := msmnile
+
 AB_OTA_POSTINSTALL_CONFIG += \
     RUN_POSTINSTALL_system=true \
     POSTINSTALL_PATH_system=system/bin/otapreopt_script \
